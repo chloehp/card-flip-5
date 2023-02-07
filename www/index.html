@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Card Flip 5</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+<meta name="viewport" content="width=device-width">
+
+<section style="height:40px;">&nbsp;</section>
+
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section>
+	<div class="container">
+		<div class="grid">
+			<!-- Card Flip -->
+			<div class="card-flip grid--1">
+				<div class="flip" id="fl1">
+					<div class="front" onclick="flip(1, 'tree')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl1b" onclick="unflip(1)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Tree</h4>
+							<img class="card--img-btm" src="./img/tree.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			<!-- Card Flip -->
+			<div class="card-flip grid--2">
+				<div class="flip" id="fl2">
+					<div class="front" onclick="flip(2, 'tris')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl2b" onclick="unflip(2)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Triskelion</h4>
+							<img class="card--img-btm" src="./img/tris.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			<!-- Card Flip -->
+			<div class="card-flip grid--3">
+				<div class="flip" id="fl3">
+					<div class="front" onclick="flip(3, 'dragon')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl3b" onclick="unflip(3)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Dragon</h4>
+							<img class="card--img-btm" src="./img/dragon.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			<!-- Card Flip -->
+			<div class="card-flip grid--4">
+				<div class="flip" id="fl4">
+					<div class="front" onclick="flip(4, 'pent')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl4b" onclick="unflip(4)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Pentacle</h4>
+							<img class="card--img-btm" src="./img/pent.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			<!-- Card Flip -->
+			<div class="card-flip grid--5">
+				<div class="flip" id="fl5">
+					<div class="front" onclick="flip(5, 'pent')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl5b" onclick="unflip(5)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Pentacle</h4>
+							<img class="card--img-btm" src="./img/pent.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			<!-- Card Flip -->
+			<div class="card-flip grid--6">
+				<div class="flip" id="fl6">
+					<div class="front" onclick="flip(6, 'dragon')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl6b" onclick="unflip(6)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Dragon</h4>
+							<img class="card--img-btm" src="./img/dragon.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			<!-- Card Flip -->
+			<div class="card-flip grid--7">
+				<div class="flip" id="fl7">
+					<div class="front" onclick="flip(7, 'tris')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl7b" onclick="unflip(7)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Triskelion</h4>
+							<img class="card--img-btm" src="./img/tris.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			<!-- Card Flip -->
+			<div class="card-flip grid--8">
+				<div class="flip" id="fl8">
+					<div class="front" onclick="flip(8, 'tree')">
+						<!-- front content -->
+						<img class="card--img-top" src="./img/idd4fhm1.png" width="330px" height="505px">
+					</div>
+					<div class="back" id="fl8b" onclick="unflip(8)">
+						<!-- back content -->
+						<div class="card" width="330px" height="505px">
+							<h4 class="card-title">Tree</h4>
+							<img class="card--img-btm" src="./img/tree.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Card Flip -->
+			
+			<div id="cover"></div>
+		</div>
+	</div>
+</section>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js'>
+</script><script  src="./script.js"></script>
+
+</body>
+</html>

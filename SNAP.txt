@@ -1,0 +1,8 @@
+BUG. click to fast and she breaks. FIXED
+TASK. More card symbols
+TASK. Drag and drop to snap
+TASK. Drag and drop within time (Beat the computer)
+TASK. Difficulty levels
+TASK. More Cards.
+TASK. More screen sizes.
+TASK. win/lose GUI
